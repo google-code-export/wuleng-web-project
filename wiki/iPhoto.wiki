@@ -1,0 +1,59 @@
+iPhoto从轻博客Tumblr的一个主题演变而来，重写成Wordpress可用的图片主题，并且添加多种功能。主题支持 IE, Firefox, Chrome, Opera等主流浏览器。如果您在使用上出现问题，或者有宝贵的建议，请留言或者发邮件：icold.me#gmail.com
+主题靓照:
+
+主题演示:
+http://icold.me/photo/
+主题下载：
+iphoto 1.5.7.zip
+主题帮助：
+1.SEO、网站流量统计、底部版权均可后台设置；
+2.主题集成了分页功能，如果个人有需求可以使用相关插件来替代；
+3.主题不支持Wordpress自带的特色图片功能，如有需要可以自行修改；
+4.主题集成了Slimbox2.0修改版，默认是关闭的，如果有需要可以后台开启；
+5.主题集成了相关文章功能(From Zwwooo)，默认是关闭的，如果有需要可以后台开启；
+6.如果想统计页面访问量，可以安装WP-PostViews插件，主题已经集成接口，无需后期调整；
+7.主题使用timthumb.php插件来截取缩略图，如果使用外链图片，在文件44行，将外链图片网站的域名添加进去。
+$ALLOWED_SITES = array (
+	'flickr.com',
+	'picasa.com',
+	'img.youtube.com',
+	'upload.wikimedia.org',
+	'photobucket.com',
+	'imgur.com',
+	'imageshack.us',
+	'tinypic.com'
+);
+更新历史：
+Update 2011.11.2 – iPhoto 1.5.7
+1.增加主题更新提示（此前版本不具有此功能）；
+2.后台CSS的小幅调整；
+Update 2011.11.2 – iPhoto 1.5.6
+1.增加文章形式-视频；
+2.后台CSS的小幅调整；
+3.更换phzoom.js；
+Update 2011.10.5 – iPhoto 1.5.4
+1.添加分享、相关文章、WP-PostViews接口；
+2.CSS的小幅调整；
+Update 2011.9.25 – iPhoto 1.5.3
+1.修改评论样式；
+2.加入首页描述性文字判断；
+3.修改缩略图方式；
+Update 2011.9.19 – iPhoto 1.5.2
+1.删除function.php中控制图片大小的函数，此函数会拖慢网页整体打开时间；
+2.修正文章翻页按钮的动画；
+Update 2011.9.19 – iPhoto 1.5.1
+1.更正英文翻译错误；
+2.部分CSS修正；
+Update 2011.9.18 – iPhoto 1.5
+1.重写首页、文章、评论代码；
+2.添加后台
+Update 2011.8.23 – iPhoto 1.4
+1.Hack IE6.0；
+2.抛弃了slimbox2，替换成phzoom.js；
+Update 2011.7.27 – iPhoto 1.2
+1.采用villen推荐颜色，重构整体颜色布局；
+2.重写首页布局javascript；
+3.文章页添加图片放大、相册功能，集成slimbox2.0
+Update 2011.7.20 – iPhoto 1.1
+1.修复一个图像的高度判断问题；
+2.没有图片（纯文字）时，将显示文章标题。

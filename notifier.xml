@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notifier>
+	<latest>2.4.0</latest>
+	<changelog>
+	<![CDATA[
+		<code> iPhoto从2.0.0 版本开始采用流体布局, 欢迎更新使用!</code>
+		<p>1.大量css重写;</p>
+		<p>2.继续优化首页流体布局形态;</p>
+		<p>3.修复3.3不能自定义背景;</p>
+		<code>本次更新重点在首页布局js，下个版本更新如下：</code>
+		<p>1.支持后台自定义菜单;</p>
+		<p>2.换掉恶心的内页吧;</p>
+	]]>	
+	</changelog>
+</notifier>
